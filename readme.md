@@ -1,4 +1,4 @@
-# Angular ang Vue Webcomponents merged
+# Angular and Vue Webcomponents merged
 
 There are 2 seperate projects.
 
