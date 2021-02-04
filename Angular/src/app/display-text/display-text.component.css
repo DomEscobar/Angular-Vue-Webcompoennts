@@ -1,0 +1,39 @@
+:host {
+    height: calc(100% - 2px);
+    width: calc(100% - 2px);
+    box-sizing: border-box;
+}
+:host(div) .displayRow {
+    width:inherit;
+    height: inherit;
+    padding-top: 0px;
+    padding-right:14px;
+    margin-top: -3px;
+    display: flex;
+    height: calc(100% + 0px) !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    line-height: 100%;
+}
+.label {
+    width:calc(50%-0px) !important;
+    padding-left: 8px;
+    padding-right:8px;
+    height: calc(100% + 0px) !important;
+    word-wrap: break-word;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 400;
+    display: inline;
+}
+.value {
+    width:calc(50%-0px) !important;
+    padding-left: 8px;
+    padding-right:8px;
+    height: calc(100% + 0px) !important;
+    word-wrap: break-word;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 700;
+    display: inline;
+}
