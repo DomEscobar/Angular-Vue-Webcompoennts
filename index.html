@@ -13,13 +13,22 @@
       crossorigin="anonymous"
     />
 
-    <script src="./Angular/elements/custom-elements.js"></script>
     <link href="./Vue/dist/build.js" rel="preload" as="script" />
   </head>
   <body>
+    <!-- Angular -->
     <angular-hucki label="Ich komme von außen" value="hi"></angular-hucki>
     <hr />
+    <!-- Vue -->
     <hucki-component height="100px"></hucki-component>
-    <script src="./Vue/dist/build.js"></script>
+
+    <hr />
+
+    <!-- Fast element -->
+    <fountain-chain></fountain-chain>
   </body>
+
+  <script src="./Fast-elements/dist/bundle.js"></script>
+  <script src="./Vue/dist/build.js"></script>
+  <script src="./Angular/elements/custom-elements.js"></script>
 </html>

@@ -1,6 +1,10 @@
-# Angular ang Vue Webcomponents merged
+# Webcomponents test
 
-There are 2 seperate projects.
+There are currently 3 different techs. that create a webcomponent
+
+- Fast-elements (https://github.com/microsoft/fast)
+- Angular 
+- Vue 3
 
 ## Start and Run
 
@@ -11,4 +15,4 @@ There are 2 seperate projects.
 
 --
 
-Yes it is a little bit messy at the moment cause im testing Vue 3 ok
+No clean code
